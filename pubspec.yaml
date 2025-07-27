@@ -1,0 +1,19 @@
+name: shifaai
+version: 1.0.0+1
+description: Offline Health Assistant with Gemma 3n (Ollama API)
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  image_picker: ^1.0.0
+  flutter_localizations:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
